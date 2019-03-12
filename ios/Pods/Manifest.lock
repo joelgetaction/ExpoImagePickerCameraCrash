@@ -17,6 +17,9 @@ PODS:
   - EXFileSystemInterface (3.0.0)
   - EXFontInterface (3.0.0)
   - EXImageLoaderInterface (3.0.0)
+  - EXImagePicker (3.0.0):
+    - EXCore
+    - EXFileSystemInterface
   - EXPermissions (3.0.0):
     - EXCore
     - EXPermissionsInterface
@@ -96,6 +99,7 @@ DEPENDENCIES:
   - EXFileSystemInterface (from `../node_modules/expo-file-system-interface/ios`)
   - EXFontInterface (from `../node_modules/expo-font-interface/ios`)
   - EXImageLoaderInterface (from `../node_modules/expo-image-loader-interface/ios`)
+  - EXImagePicker (from `../node_modules/expo-image-picker/ios`)
   - EXPermissions (from `../node_modules/expo-permissions/ios`)
   - EXPermissionsInterface (from `../node_modules/expo-permissions-interface/ios`)
   - EXReactNativeAdapter (from `../node_modules/expo-react-native-adapter/ios`)
@@ -148,6 +152,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-font-interface/ios"
   EXImageLoaderInterface:
     :path: "../node_modules/expo-image-loader-interface/ios"
+  EXImagePicker:
+    :path: "../node_modules/expo-image-picker/ios"
   EXPermissions:
     :path: "../node_modules/expo-permissions/ios"
   EXPermissionsInterface:
@@ -181,6 +187,7 @@ SPEC CHECKSUMS:
   EXFileSystemInterface: f4860a5c60997eebef7dea3ca96d992f80f36c10
   EXFontInterface: 1849711e0123eab412b149dc63bac615d43a6be5
   EXImageLoaderInterface: ac1c36d20e4ee0bb4901d4eff8eb863b8b92bc53
+  EXImagePicker: b69149d68f9e748f61f8384eba47642a8df943f1
   EXPermissions: 907c6a0a76e4e25a28c2014427933ae9cd40405c
   EXPermissionsInterface: 344d3e64f6c827801bb2b459ac030d76f762d541
   EXReactNativeAdapter: 2119535f769de79411e1aa6d29baeff8ff95af65
@@ -191,6 +198,6 @@ SPEC CHECKSUMS:
   React: 130b87b2d5e2baac646954282cab87be986d98fc
   yoga: 32d7ef1081951e9a35a4c72a7be797598b138a48
 
-PODFILE CHECKSUM: 2c0cc9a9746d437fe8aa725d4d5d3445ea95ef5c
+PODFILE CHECKSUM: b9fb241304dae0aa05ace3f25eb53c9e241e2d2c
 
 COCOAPODS: 1.6.1

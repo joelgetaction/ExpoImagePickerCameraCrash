@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA890A783F0FC1D3E7BA018F965F7DFE"
-               BuildableName = "libPods-ExpoImagePickerCameraCrash.a"
-               BlueprintName = "Pods-ExpoImagePickerCameraCrash"
+               BlueprintIdentifier = "69D895C1457AA741C13F718B154FAD98"
+               BuildableName = "libEXImagePicker.a"
+               BlueprintName = "EXImagePicker"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

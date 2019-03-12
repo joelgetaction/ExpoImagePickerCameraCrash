@@ -21,6 +21,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import expo.modules.permissions.PermissionsPackage;
+import expo.modules.imagepicker.ImagePickerPackage;
 
 public class MainApplication extends Application implements ReactApplication {
   private final ReactModuleRegistryProvider mModuleRegistryProvider = new ReactModuleRegistryProvider(Arrays.<Package>asList(
@@ -28,7 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
      new ConstantsPackage(),
      new PermissionsPackage(),
      new FileSystemPackage(),
-     new PermissionsPackage()
+     new PermissionsPackage(),
+     new ImagePickerPackage()
   ), Arrays.<SingletonModule>asList());
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
