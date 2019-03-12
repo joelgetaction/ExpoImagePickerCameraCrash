@@ -1,0 +1,16 @@
+node_modules/**/*
+ios/build/**/*
+ios/ExpoImagePickerCameraCrash.xcworkspace/xcuserdata/joel.xcuserdatad/UserInterfaceState.xcuserstate
+android/app/build/**/*
+android/.gradle/**/*
+android/local.properties
+android/.idea/caches/**/*
+android/.idea/libraries/**/*
+android/.idea/.name
+android/.idea/misc.xml
+android/.idea/modules.xml
+android/.idea/vcs.xml
+android/.idea/workspace.xml
+*.iml
+*.swp
+.DS_Store
