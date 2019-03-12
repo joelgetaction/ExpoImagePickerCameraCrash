@@ -29,6 +29,8 @@ target 'ExpoImagePickerCameraCrash' do
   use_unimodules!
   # Add pods for additional unimodules here
 
+  pod 'EXPermissions', path: '../node_modules/expo-permissions/ios'
+
   target 'ExpoImagePickerCameraCrashTests' do
     inherit! :search_paths
   end

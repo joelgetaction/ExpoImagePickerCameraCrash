@@ -2141,7 +2141,7 @@ expo-permissions-interface@~3.0.0:
   resolved "https://registry.yarnpkg.com/expo-permissions-interface/-/expo-permissions-interface-3.0.0.tgz#6b58bdcc9ad0d2fdd317221652fba428de608581"
   integrity sha512-exvdrfZNiGs5fbPl3zPxGDd1GJ/SXeontlafpS2HwMoHS60sxfsUmogf4Eb/pLVSB567K6cL7cq8ad8iT4GxUg==
 
-expo-permissions@~3.0.0:
+expo-permissions@^3.0.0, expo-permissions@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-3.0.0.tgz#56620eaff4e6e9830f1fec3d52197c02055ec041"
   integrity sha512-rg10HcCc3luepR74OsgPtuOXtTDHL7uc4UO70FlelJEYPOF5FyjYTzW5BpjDX2rvNP+jj0Q2bkseI043xeRDAg==

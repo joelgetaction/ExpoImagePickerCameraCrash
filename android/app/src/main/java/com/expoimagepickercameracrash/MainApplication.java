@@ -20,12 +20,15 @@ import expo.modules.permissions.PermissionsPackage;
 import java.util.Arrays;
 import java.util.List;
 
+import expo.modules.permissions.PermissionsPackage;
+
 public class MainApplication extends Application implements ReactApplication {
   private final ReactModuleRegistryProvider mModuleRegistryProvider = new ReactModuleRegistryProvider(Arrays.<Package>asList(
      new ReactAdapterPackage(),
      new ConstantsPackage(),
      new PermissionsPackage(),
-     new FileSystemPackage()
+     new FileSystemPackage(),
+     new PermissionsPackage()
   ), Arrays.<SingletonModule>asList());
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
